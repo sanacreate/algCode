@@ -15,7 +15,7 @@ def gcd(a:int,b:int):
         return gcd(b,r)
     return b
 
-print(gcd(0,0))
+# print(gcd(0,0))
 # GPT,当b不等于0的时候，就一直进行迭代，卧槽，真几把帅！
 # 这里利用了while 所接的布尔表达式是一个真的时候一直执行循环
 # 满足条件的时候，持续执行长除法，直到b为0返回a的值，对应就是r=0，返回r_{0}的值
